@@ -1,0 +1,30 @@
+{
+  "currency_patterns": ["BHD", "BD", "د.ب"],
+  "used_terms": ["مستعمل", "مستعملة"],
+  "new_terms": ["جديد", "جديدة"],
+  "posted_pattern": "(?:\\b\\d+\\s*(?:minutes?|hours?|days?|weeks?|months?)\\s*ago\\b|منذ\\s+[^,]+)",
+  "stopwords": [
+    "للبيع", "مستعمل", "مستعملة", "جديد", "جديدة", "بحالة", "ممتازة",
+    "نظيف", "نظيفه", "شاشة", "شاشه", "كيبورد", "ماوس", "فقط", "مع"
+  ],
+  "categories": {
+    "monitor": ["monitor", "screen", "display", "ultrawide", "inch", "بوصة", "شاشة", "شاشه"],
+    "keyboard": ["keyboard", "mechanical", "apex", "gmmk", "keychron", "razer", "كيبورد"],
+    "mouse": ["mouse", "mice", "deathadder", "logitech g", "glorious model", "ماوس"],
+    "laptop": ["laptop", "macbook", "thinkpad", "latitude", "elitebook", "لابتوب"],
+    "desktop": ["desktop", "gaming pc", "computer", "كمبيوتر", "حاسوب"],
+    "gpu": ["rtx", "gtx", "rx ", "graphics card", "gpu", "كرت شاشة"],
+    "phone": ["phone", "iphone", "galaxy", "pixel", "هاتف", "جوال", "ايفون"],
+    "tablet": ["tablet", "ipad", "galaxy tab", "تابلت", "ايباد"],
+    "camera": ["camera", "camcorder", "dslr", "mirrorless", "كاميرا"],
+    "router": ["router", "wifi", "wi-fi", "mifi", "راوتر", "واي فاي"],
+    "headphones": ["headphone", "headset", "airpods", "earbuds", "سماعة رأس"],
+    "speakers": ["speaker", "speakers", "woofer", "subwoofer", "سماعات"],
+    "console": ["playstation", "ps5", "ps4", "xbox", "nintendo", "switch", "console"],
+    "television": ["tv", "television", "smart tv", "qled", "neo qled", "oled", "led tv", "تلفزيون", "تلفاز"],
+    "soundbar": ["soundbar", "sound bar", "home theater", "سماعة تلفزيون", "ساوندبار"],
+    "printer": ["printer", "copier", "xerox", "canon", "konica", "ricoh", "طابعة", "آلة تصوير"],
+    "bundle": ["bundle", "package", "combo", "with soundbar", "تجميعة", "باقة"]
+  }
+}
+

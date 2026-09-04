@@ -1,0 +1,17 @@
+{
+  "startup": "بدأ Bahrain Flip Finder الفحص الآن.",
+  "test": "تم الاتصال بـ Bahrain Flip Finder بنجاح.",
+  "no_opportunities": "لم يتم العثور على فرصة مستوفية للشروط في هذه الدورة.",
+  "decision": {
+    "buy_candidate": "مرشح شراء",
+    "manual_check": "تحقق يدوي",
+    "skip": "تجاوز"
+  },
+  "demand": {
+    "high": "مرتفع",
+    "medium": "متوسط",
+    "low": "منخفض",
+    "unknown": "غير معروف"
+  }
+}
+
