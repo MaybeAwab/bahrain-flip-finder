@@ -7,6 +7,23 @@ enough room for resale after transport, repairs and selling costs.
 The price calculation is regular Python code. AI review is optional and is mainly used
 to check the product model, missing information and obvious risks.
 
+## How it works
+
+The scan follows the same path for every listing:
+
+```mermaid
+flowchart TD
+    A["Public listing pages"] --> B["Collect and normalize listings"]
+    B --> C["Remove duplicates"]
+    C --> D["Match the exact model or category"]
+    D --> E["Filter price outliers and find the median"]
+    E --> F["Calculate cost, profit, ROI and maximum buy price"]
+    F --> G{"Meets the configured thresholds?"}
+    G -- "No" --> H["Skip and save the result"]
+    G -- "Yes" --> I["Optional AI risk review"]
+    I --> J["Send the opportunity to Telegram"]
+```
+
 ## What it does
 
 - Reads public OpenSooq and Dubizzle listing pages.
